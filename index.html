@@ -264,7 +264,7 @@
     Password: "3AD81C4C9E786847A8EB6F938E4346798A10",
     To: 'raiko331@gmail.com',
     From: 'kouhaiikun@gmail.com',
-    Subject: subject+ `\n Email: ${email}`,
+    Subject: `Subject: ${subject}`+ `\n Email: ${email}`,
     Body: message
   })
   .then(response => console.log('Email sent:', response)+ alert('Email Sent'))
